@@ -21,7 +21,7 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/main/headers
         ${PROJECT_SOURCE_DIR}/lib/glfw/include
         ${PROJECT_SOURCE_DIR}/lib/glad/include
-        ${PROJECT_SOURCE_DIR}/lib/glm/include
+        ${PROJECT_SOURCE_DIR}/lib/glm
 )
 
 file(GLOB_RECURSE SOURCES ${PROJECT_SOURCE_DIR}/main/sources/*.cpp)
