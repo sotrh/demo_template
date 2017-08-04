@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\glfw\;CMake Files\lib\glfw\CMake\;CMake Files\lib\glfw\CMake\modules\;CMake Files\lib\glfw\src\;CMake Files\lib\glm\;CMake Files\lib\glm\cmake\;CMake Files\lib\glm\glm\;CMake Files\lib\glm\test\;CMake Files\lib\glm\test\bug\;CMake Files\lib\glm\test\core\;CMake Files\lib\glm\test\gtc\;CMake Files\lib\glm\test\gtx\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/benjamin/CLionProjects/demo_template/lib/glfw/include"/>
+					<Add directory="/home/benjamin/CLionProjects/demo_template/lib/glfw/src"/>
+					<Add directory="/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/benjamin/CLionProjects/demo_template/lib/glfw/include"/>
+					<Add directory="/home/benjamin/CLionProjects/demo_template/lib/glfw/src"/>
+					<Add directory="/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\lib\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\lib\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\glm\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\glm\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\bug\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\bug\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\core\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\core\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\gtc\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\gtc\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\gtx\"/>
+		</Unit>
+		<Unit filename="/home/benjamin/CLionProjects/demo_template/lib/glm/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\test\gtx\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
