@@ -1,5 +1,4 @@
 #include <main.hpp>
-#include <iostream>
 
 int main() {
     GLFWwindow *window;
@@ -36,13 +35,28 @@ int main() {
             0.0f,  0.5f, 0.0f
     };
 
+    uint vao;
+    glGenVertexArrays(1, &vao);
+    glBindVertexArray(vao);
+
     uint vbo;
     glGenBuffers(1, &vbo);
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*) nullptr);
+    glEnableVertexAttribArray(0);
+
+    // create the shader
+
+    Shader shader("assets/shaders/position.vert", "assets/shaders/color.frag");
+
     while (glfwWindowShouldClose(window) == GLFW_FALSE) {
         glClear(GL_COLOR_BUFFER_BIT);
+
+        glUseProgram(shader.id);
+        glBindVertexArray(vao);
+        glDrawArrays(GL_TRIANGLES, 0, 3);
 
         glfwSwapBuffers(window);
         glfwPollEvents();
