@@ -1,4 +1,4 @@
-# Install script for directory: /home/benjamin/CLionProjects/demo_template/lib/glm/test/gtx
+# Install script for directory: /home/benjamin/dev/demo_template/lib/glm/test/gtx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

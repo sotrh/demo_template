@@ -1,4 +1,4 @@
-# Install script for directory: /home/benjamin/CLionProjects/demo_template/lib/glfw/src
+# Install script for directory: /home/benjamin/dev/demo_template/lib/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/benjamin/dev/demo_template/cmake-build-debug/lib/glfw/src/libglfw3.a")
 endif()
 

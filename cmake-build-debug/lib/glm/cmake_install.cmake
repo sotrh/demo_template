@@ -1,4 +1,4 @@
-# Install script for directory: /home/benjamin/CLionProjects/demo_template/lib/glm
+# Install script for directory: /home/benjamin/dev/demo_template/lib/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/benjamin/CLionProjects/demo_template/lib/glm/glm")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/benjamin/dev/demo_template/lib/glm/glm")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/glm" TYPE FILE FILES
-    "/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/lib/x86_64-linux-gnu/cmake/glm/glmConfig.cmake"
-    "/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glmConfigVersion.cmake"
+    "/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/lib/x86_64-linux-gnu/cmake/glm/glmConfig.cmake"
+    "/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glmConfigVersion.cmake"
     )
 endif()
 
@@ -47,7 +47,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/glm/glmTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/glm/glmTargets.cmake"
-         "/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/glm/glmTargets.cmake")
+         "/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/glm/glmTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/glm/glmTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -56,17 +56,17 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/glm" TYPE FILE FILES "/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/glm/glmTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/glm" TYPE FILE FILES "/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/glm/glmTargets.cmake")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/pkgconfig" TYPE FILE FILES "/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/pkgconfig" TYPE FILE FILES "/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm/cmake_install.cmake")
-  include("/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/test/cmake_install.cmake")
+  include("/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm/cmake_install.cmake")
+  include("/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/test/cmake_install.cmake")
 
 endif()
 

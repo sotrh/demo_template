@@ -49,7 +49,7 @@ unset(_expectedTargets)
 add_library(glm INTERFACE IMPORTED)
 
 set_target_properties(glm PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/benjamin/CLionProjects/demo_template/lib/glm"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/benjamin/dev/demo_template/lib/glm"
 )
 
 # This file does not depend on other imported targets which have

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/benjamin/bin/clion-2017.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/benjamin/bin/clion-2017.2.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/benjamin/bin/clion-2017.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/benjamin/bin/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benjamin/CLionProjects/demo_template
+CMAKE_SOURCE_DIR = /home/benjamin/dev/demo_template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benjamin/CLionProjects/demo_template/cmake-build-debug
+CMAKE_BINARY_DIR = /home/benjamin/dev/demo_template/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/glm/glm/CMakeFiles/glm_dummy.dir/depend.make
@@ -59,16 +59,16 @@ include lib/glm/glm/CMakeFiles/glm_dummy.dir/flags.make
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o: lib/glm/glm/CMakeFiles/glm_dummy.dir/flags.make
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o: ../lib/glm/glm/detail/dummy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benjamin/CLionProjects/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o"
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o -c /home/benjamin/CLionProjects/demo_template/lib/glm/glm/detail/dummy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benjamin/dev/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o"
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o -c /home/benjamin/dev/demo_template/lib/glm/glm/detail/dummy.cpp
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glm_dummy.dir/detail/dummy.cpp.i"
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benjamin/CLionProjects/demo_template/lib/glm/glm/detail/dummy.cpp > CMakeFiles/glm_dummy.dir/detail/dummy.cpp.i
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benjamin/dev/demo_template/lib/glm/glm/detail/dummy.cpp > CMakeFiles/glm_dummy.dir/detail/dummy.cpp.i
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glm_dummy.dir/detail/dummy.cpp.s"
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benjamin/CLionProjects/demo_template/lib/glm/glm/detail/dummy.cpp -o CMakeFiles/glm_dummy.dir/detail/dummy.cpp.s
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benjamin/dev/demo_template/lib/glm/glm/detail/dummy.cpp -o CMakeFiles/glm_dummy.dir/detail/dummy.cpp.s
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o.provides.build: lib/glm/
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.o: lib/glm/glm/CMakeFiles/glm_dummy.dir/flags.make
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.o: ../lib/glm/glm/detail/glm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benjamin/CLionProjects/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.o"
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glm_dummy.dir/detail/glm.cpp.o -c /home/benjamin/CLionProjects/demo_template/lib/glm/glm/detail/glm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benjamin/dev/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.o"
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glm_dummy.dir/detail/glm.cpp.o -c /home/benjamin/dev/demo_template/lib/glm/glm/detail/glm.cpp
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glm_dummy.dir/detail/glm.cpp.i"
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benjamin/CLionProjects/demo_template/lib/glm/glm/detail/glm.cpp > CMakeFiles/glm_dummy.dir/detail/glm.cpp.i
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benjamin/dev/demo_template/lib/glm/glm/detail/glm.cpp > CMakeFiles/glm_dummy.dir/detail/glm.cpp.i
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glm_dummy.dir/detail/glm.cpp.s"
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benjamin/CLionProjects/demo_template/lib/glm/glm/detail/glm.cpp -o CMakeFiles/glm_dummy.dir/detail/glm.cpp.s
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benjamin/dev/demo_template/lib/glm/glm/detail/glm.cpp -o CMakeFiles/glm_dummy.dir/detail/glm.cpp.s
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.o.requires:
 
@@ -117,8 +117,8 @@ lib/glm/glm/glm_dummy: lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o
 lib/glm/glm/glm_dummy: lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.o
 lib/glm/glm/glm_dummy: lib/glm/glm/CMakeFiles/glm_dummy.dir/build.make
 lib/glm/glm/glm_dummy: lib/glm/glm/CMakeFiles/glm_dummy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benjamin/CLionProjects/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable glm_dummy"
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glm_dummy.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benjamin/dev/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable glm_dummy"
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glm_dummy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/glm/glm/CMakeFiles/glm_dummy.dir/build: lib/glm/glm/glm_dummy
@@ -131,10 +131,10 @@ lib/glm/glm/CMakeFiles/glm_dummy.dir/requires: lib/glm/glm/CMakeFiles/glm_dummy.
 .PHONY : lib/glm/glm/CMakeFiles/glm_dummy.dir/requires
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/clean:
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm && $(CMAKE_COMMAND) -P CMakeFiles/glm_dummy.dir/cmake_clean.cmake
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm && $(CMAKE_COMMAND) -P CMakeFiles/glm_dummy.dir/cmake_clean.cmake
 .PHONY : lib/glm/glm/CMakeFiles/glm_dummy.dir/clean
 
 lib/glm/glm/CMakeFiles/glm_dummy.dir/depend:
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benjamin/CLionProjects/demo_template /home/benjamin/CLionProjects/demo_template/lib/glm/glm /home/benjamin/CLionProjects/demo_template/cmake-build-debug /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm/CMakeFiles/glm_dummy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/benjamin/dev/demo_template/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benjamin/dev/demo_template /home/benjamin/dev/demo_template/lib/glm/glm /home/benjamin/dev/demo_template/cmake-build-debug /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm /home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm/CMakeFiles/glm_dummy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/glm/glm/CMakeFiles/glm_dummy.dir/depend
 

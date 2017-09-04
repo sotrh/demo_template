@@ -8,6 +8,17 @@ CMakeFiles/demo_template.dir/lib/glad/src/glad.c.o: ../lib/glad/src/glad.c
 CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glad/include/KHR/khrplatform.h
 CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glad/include/glad/glad.h
 CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glfw/include/GLFW/glfw3.h
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/detail/_swizzle.hpp
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/detail/_swizzle_func.hpp
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/detail/compute_vector_relational.hpp
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/detail/qualifier.hpp
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/detail/setup.hpp
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/detail/type_int.hpp
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/detail/type_vec.hpp
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/detail/type_vec2.hpp
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/detail/type_vec2.inl
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/simd/platform.h
+CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../lib/glm/glm/vec2.hpp
 CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../main/headers/main.hpp
 CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../main/sources/main.cpp
 

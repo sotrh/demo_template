@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/benjamin/bin/clion-2017.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/benjamin/bin/clion-2017.2.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/benjamin/bin/clion-2017.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/benjamin/bin/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benjamin/CLionProjects/demo_template
+CMAKE_SOURCE_DIR = /home/benjamin/dev/demo_template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benjamin/CLionProjects/demo_template/cmake-build-debug
+CMAKE_BINARY_DIR = /home/benjamin/dev/demo_template/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/demo_template.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/demo_template.dir/flags.make
 
 CMakeFiles/demo_template.dir/main/sources/main.cpp.o: CMakeFiles/demo_template.dir/flags.make
 CMakeFiles/demo_template.dir/main/sources/main.cpp.o: ../main/sources/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benjamin/CLionProjects/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo_template.dir/main/sources/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_template.dir/main/sources/main.cpp.o -c /home/benjamin/CLionProjects/demo_template/main/sources/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benjamin/dev/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo_template.dir/main/sources/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_template.dir/main/sources/main.cpp.o -c /home/benjamin/dev/demo_template/main/sources/main.cpp
 
 CMakeFiles/demo_template.dir/main/sources/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_template.dir/main/sources/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benjamin/CLionProjects/demo_template/main/sources/main.cpp > CMakeFiles/demo_template.dir/main/sources/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benjamin/dev/demo_template/main/sources/main.cpp > CMakeFiles/demo_template.dir/main/sources/main.cpp.i
 
 CMakeFiles/demo_template.dir/main/sources/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_template.dir/main/sources/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benjamin/CLionProjects/demo_template/main/sources/main.cpp -o CMakeFiles/demo_template.dir/main/sources/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benjamin/dev/demo_template/main/sources/main.cpp -o CMakeFiles/demo_template.dir/main/sources/main.cpp.s
 
 CMakeFiles/demo_template.dir/main/sources/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/demo_template.dir/main/sources/main.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/demo_template.dir/lib/glad/src/glad.c.o: CMakeFiles/demo_template.dir/flags.make
 CMakeFiles/demo_template.dir/lib/glad/src/glad.c.o: ../lib/glad/src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benjamin/CLionProjects/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/demo_template.dir/lib/glad/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/demo_template.dir/lib/glad/src/glad.c.o   -c /home/benjamin/CLionProjects/demo_template/lib/glad/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benjamin/dev/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/demo_template.dir/lib/glad/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/demo_template.dir/lib/glad/src/glad.c.o   -c /home/benjamin/dev/demo_template/lib/glad/src/glad.c
 
 CMakeFiles/demo_template.dir/lib/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo_template.dir/lib/glad/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/benjamin/CLionProjects/demo_template/lib/glad/src/glad.c > CMakeFiles/demo_template.dir/lib/glad/src/glad.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/benjamin/dev/demo_template/lib/glad/src/glad.c > CMakeFiles/demo_template.dir/lib/glad/src/glad.c.i
 
 CMakeFiles/demo_template.dir/lib/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo_template.dir/lib/glad/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/benjamin/CLionProjects/demo_template/lib/glad/src/glad.c -o CMakeFiles/demo_template.dir/lib/glad/src/glad.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/benjamin/dev/demo_template/lib/glad/src/glad.c -o CMakeFiles/demo_template.dir/lib/glad/src/glad.c.s
 
 CMakeFiles/demo_template.dir/lib/glad/src/glad.c.o.requires:
 
@@ -120,11 +120,8 @@ demo_template: lib/glfw/src/libglfw3.a
 demo_template: /usr/lib/x86_64-linux-gnu/librt.so
 demo_template: /usr/lib/x86_64-linux-gnu/libm.so
 demo_template: /usr/lib/x86_64-linux-gnu/libX11.so
-demo_template: /usr/lib/x86_64-linux-gnu/libXrandr.so
-demo_template: /usr/lib/x86_64-linux-gnu/libXinerama.so
-demo_template: /usr/lib/x86_64-linux-gnu/libXcursor.so
 demo_template: CMakeFiles/demo_template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benjamin/CLionProjects/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable demo_template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benjamin/dev/demo_template/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable demo_template"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_template.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +139,6 @@ CMakeFiles/demo_template.dir/clean:
 .PHONY : CMakeFiles/demo_template.dir/clean
 
 CMakeFiles/demo_template.dir/depend:
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benjamin/CLionProjects/demo_template /home/benjamin/CLionProjects/demo_template /home/benjamin/CLionProjects/demo_template/cmake-build-debug /home/benjamin/CLionProjects/demo_template/cmake-build-debug /home/benjamin/CLionProjects/demo_template/cmake-build-debug/CMakeFiles/demo_template.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/benjamin/dev/demo_template/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benjamin/dev/demo_template /home/benjamin/dev/demo_template /home/benjamin/dev/demo_template/cmake-build-debug /home/benjamin/dev/demo_template/cmake-build-debug /home/benjamin/dev/demo_template/cmake-build-debug/CMakeFiles/demo_template.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/demo_template.dir/depend
 

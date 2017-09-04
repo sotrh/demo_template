@@ -1,4 +1,4 @@
-# Install script for directory: /home/benjamin/CLionProjects/demo_template/lib/glm/test
+# Install script for directory: /home/benjamin/dev/demo_template/lib/glm/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/test/bug/cmake_install.cmake")
-  include("/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/test/core/cmake_install.cmake")
-  include("/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/test/gtc/cmake_install.cmake")
-  include("/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/test/gtx/cmake_install.cmake")
+  include("/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/test/bug/cmake_install.cmake")
+  include("/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/test/core/cmake_install.cmake")
+  include("/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/test/ext/cmake_install.cmake")
+  include("/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/test/gtc/cmake_install.cmake")
+  include("/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/test/gtx/cmake_install.cmake")
 
 endif()
 

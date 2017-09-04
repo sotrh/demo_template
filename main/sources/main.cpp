@@ -28,6 +28,19 @@ int main() {
         return -1;
     }
 
+    // create a triangle
+
+    float vertices[] = {
+            -0.5f, -0.5f, 0.0f,
+            0.5f, -0.5f, 0.0f,
+            0.0f,  0.5f, 0.0f
+    };
+
+    uint vbo;
+    glGenBuffers(1, &vbo);
+    glBindBuffer(GL_ARRAY_BUFFER, vbo);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+
     while (glfwWindowShouldClose(window) == GLFW_FALSE) {
         glClear(GL_COLOR_BUFFER_BIT);
 

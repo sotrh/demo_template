@@ -34,7 +34,7 @@ stdint.h
 inttypes.h
 -
 
-/home/benjamin/CLionProjects/demo_template/lib/glad/src/glad.c
+/home/benjamin/dev/demo_template/lib/glad/src/glad.c
 stdio.h
 -
 stdlib.h

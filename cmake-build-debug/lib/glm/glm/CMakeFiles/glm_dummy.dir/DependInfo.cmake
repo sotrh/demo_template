@@ -4,20 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/benjamin/CLionProjects/demo_template/lib/glm/glm/detail/dummy.cpp" "/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o"
-  "/home/benjamin/CLionProjects/demo_template/lib/glm/glm/detail/glm.cpp" "/home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.o"
+  "/home/benjamin/dev/demo_template/lib/glm/glm/detail/dummy.cpp" "/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o"
+  "/home/benjamin/dev/demo_template/lib/glm/glm/detail/glm.cpp" "/home/benjamin/dev/demo_template/cmake-build-debug/lib/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "_CRT_SECURE_NO_WARNINGS"
-  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../lib/glm"
-  "../lib/glm/test/external"
   "../lib/glm/glm/.."
   )
 

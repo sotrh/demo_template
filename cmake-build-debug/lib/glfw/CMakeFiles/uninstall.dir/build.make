@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/benjamin/bin/clion-2017.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/benjamin/bin/clion-2017.2.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/benjamin/bin/clion-2017.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/benjamin/bin/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benjamin/CLionProjects/demo_template
+CMAKE_SOURCE_DIR = /home/benjamin/dev/demo_template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benjamin/CLionProjects/demo_template/cmake-build-debug
+CMAKE_BINARY_DIR = /home/benjamin/dev/demo_template/cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/benjamin/CLionProjects/demo_template/cmake-build-debug
 include lib/glfw/CMakeFiles/uninstall.dir/progress.make
 
 lib/glfw/CMakeFiles/uninstall:
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw && /home/benjamin/bin/clion-2017.2/bin/cmake/bin/cmake -P /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/cmake_uninstall.cmake
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glfw && /home/benjamin/bin/clion-2017.2.2/bin/cmake/bin/cmake -P /home/benjamin/dev/demo_template/cmake-build-debug/lib/glfw/cmake_uninstall.cmake
 
 uninstall: lib/glfw/CMakeFiles/uninstall
 uninstall: lib/glfw/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ lib/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : lib/glfw/CMakeFiles/uninstall.dir/build
 
 lib/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/benjamin/dev/demo_template/cmake-build-debug/lib/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : lib/glfw/CMakeFiles/uninstall.dir/clean
 
 lib/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/benjamin/CLionProjects/demo_template/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benjamin/CLionProjects/demo_template /home/benjamin/CLionProjects/demo_template/lib/glfw /home/benjamin/CLionProjects/demo_template/cmake-build-debug /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw /home/benjamin/CLionProjects/demo_template/cmake-build-debug/lib/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/benjamin/dev/demo_template/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benjamin/dev/demo_template /home/benjamin/dev/demo_template/lib/glfw /home/benjamin/dev/demo_template/cmake-build-debug /home/benjamin/dev/demo_template/cmake-build-debug/lib/glfw /home/benjamin/dev/demo_template/cmake-build-debug/lib/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/glfw/CMakeFiles/uninstall.dir/depend
 
