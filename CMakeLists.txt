@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(demo_template)
+project(src)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -18,24 +18,24 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/lib/glm)
 find_package(OpenGL REQUIRED)
 
 include_directories(
-        ${PROJECT_SOURCE_DIR}/main/headers
+        ${PROJECT_SOURCE_DIR}/src/headers
         ${PROJECT_SOURCE_DIR}/lib/glfw/include
         ${PROJECT_SOURCE_DIR}/lib/glad/include
         ${PROJECT_SOURCE_DIR}/lib/glm
 )
 
-file(GLOB_RECURSE SOURCES ${PROJECT_SOURCE_DIR}/main/sources/*.cpp)
-file(GLOB_RECURSE HEADERS ${PROJECT_SOURCE_DIR}/main/headers/*.hpp)
+file(GLOB_RECURSE SOURCES ${PROJECT_SOURCE_DIR}/src/sources/*.cpp)
+file(GLOB_RECURSE HEADERS ${PROJECT_SOURCE_DIR}/src/headers/*.hpp)
 file(GLOB_RECURSE SHADERS
-        ${PROJECT_SOURCE_DIR}/main/shaders/*.comp
-        ${PROJECT_SOURCE_DIR}/main/shaders/*.vert
-        ${PROJECT_SOURCE_DIR}/main/shaders/*.geom
-        ${PROJECT_SOURCE_DIR}/main/shaders/*.frag)
+        ${PROJECT_SOURCE_DIR}/src/shaders/*.comp
+        ${PROJECT_SOURCE_DIR}/src/shaders/*.vert
+        ${PROJECT_SOURCE_DIR}/src/shaders/*.geom
+        ${PROJECT_SOURCE_DIR}/src/shaders/*.frag)
 
-add_executable(demo_template
+add_executable(src
         ${SOURCES}
         ${HEADERS}
         ${GLAD_SOURCES})
 
-target_link_libraries(demo_template glfw ${GLFW_LIBRARIES})
+target_link_libraries(src glfw ${GLFW_LIBRARIES})
 
