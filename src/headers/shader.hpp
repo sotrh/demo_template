@@ -26,7 +26,6 @@ public:
         int success;
         char infoLog[1024];
 
-        loadFile("assets/shaders/position.vert", &vsString);
         auto vertexShaderSource = vsString.c_str();
         auto vertexShader = glCreateShader(GL_VERTEX_SHADER);
         glShaderSource(vertexShader, 1, &vertexShaderSource, nullptr);
@@ -38,7 +37,6 @@ public:
             std::cerr << "Unable to compile vertexShader:" << std::endl << infoLog << std::endl;
         }
 
-        loadFile("assets/shaders/color.frag", &fsString);
         auto fragmentShaderSource = fsString.c_str();
         auto fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
         glShaderSource(fragmentShader, 1, &fragmentShaderSource, nullptr);
@@ -54,6 +52,12 @@ public:
         glAttachShader(id, vertexShader);
         glAttachShader(id, fragmentShader);
         glLinkProgram(id);
+
+        glGetProgramiv(id, GL_LINK_STATUS, &success);
+        if (!success) {
+            glGetProgramInfoLog(id, 1024, nullptr, infoLog);
+            std::cout << "Unable to link shader program:" << std::endl << infoLog << std::endl;
+        }
 
         glDeleteShader(vertexShader);
         glDeleteShader(fragmentShader);
