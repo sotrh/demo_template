@@ -21,6 +21,7 @@ find_package(OpenGL REQUIRED)
 # --- main build commands ---
 include_directories(
         ${PROJECT_SOURCE_DIR}/src/headers
+        ${PROJECT_SOURCE_DIR}/lib/header-libs
         ${PROJECT_SOURCE_DIR}/lib/glfw/include
         ${PROJECT_SOURCE_DIR}/lib/glad/include
         ${PROJECT_SOURCE_DIR}/lib/glm
@@ -35,12 +36,8 @@ file(COPY ${PROJECT_SOURCE_DIR}/src/assets/
 add_executable(demo_template
         ${SOURCES}
         ${HEADERS}
-        ${GLAD_SOURCES} src/headers/files.hpp src/headers/shader.hpp)
+        ${ASSETS}
+        ${GLAD_SOURCES})
 
 target_link_libraries(demo_template glfw ${GLFW_LIBRARIES})
-
-#add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-#        COMMAND ${CMAKE_COMMAND} -E copy_directory
-#        ${PROJECT_SOURCE_DIR}/assets/
-#        ${PROJECT_BINARY_DIR}/assets/)
 

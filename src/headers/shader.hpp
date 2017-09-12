@@ -13,8 +13,8 @@
 #include <iostream>
 
 class Shader {
-public:
     unsigned int id;
+public:
 
     Shader(const std::string &vertexPath, const std::string &fragmentPath) {
         std::string vsString;
@@ -61,6 +61,22 @@ public:
 
         glDeleteShader(vertexShader);
         glDeleteShader(fragmentShader);
+    }
+
+    void bind() {
+        glUseProgram(id);
+    }
+
+    void setInt(const char * uniformName, const int i) {
+        setInt(glGetUniformLocation(id, uniformName), i);
+    }
+
+    void setInt(const int location, const int i) {
+        glUniform1i(location, i);
+    }
+
+    unsigned int getId() {
+        return id;
     }
 };
 
