@@ -22,6 +22,10 @@ find_package(OpenGL REQUIRED)
 find_package(Freetype REQUIRED)
 include_directories(${FREETYPE_INCLUDE_DIRS})
 
+# --- boost ---
+find_package(Boost 1.61 COMPONENTS program_options REQUIRED)
+include_directories(${Boost_INCLUDE_DIR})
+
 # --- main build commands ---
 include_directories(
         ${PROJECT_SOURCE_DIR}/src/headers
@@ -43,5 +47,5 @@ add_executable(demo_template
         ${ASSETS}
         ${GLAD_SOURCES})
 
-target_link_libraries(demo_template glfw ${GLFW_LIBRARIES} ${FREETYPE_LIBRARIES})
+target_link_libraries(demo_template LINK_PUBLIC glfw ${GLFW_LIBRARIES} ${FREETYPE_LIBRARIES} ${Boost_LIBRARIES})
 

@@ -34,7 +34,7 @@ public:
 
         if (!success) {
             glGetShaderInfoLog(vertexShader, 1024, nullptr, infoLog);
-            std::cerr << "Unable to compile vertexShader:" << std::endl << infoLog << std::endl;
+            Log::e("Shader::Shader", boost::format("Unable to compile vertex shader:\n%s") % infoLog);
         }
 
         auto fragmentShaderSource = fsString.c_str();
@@ -45,7 +45,7 @@ public:
 
         if (!success) {
             glGetShaderInfoLog(vertexShader, 1024, nullptr, infoLog);
-            std::cerr << "Unable to compile fragmentShader:" << std::endl << infoLog << std::endl;
+            Log::e("Shader::Shader", boost::format("Unable to compile fragment shader:\n%s") % infoLog);
         }
 
         id = glCreateProgram();
@@ -56,7 +56,7 @@ public:
         glGetProgramiv(id, GL_LINK_STATUS, &success);
         if (!success) {
             glGetProgramInfoLog(id, 1024, nullptr, infoLog);
-            std::cout << "Unable to link shader program:" << std::endl << infoLog << std::endl;
+            Log::e("Shader::Shader", boost::format("Unable to link shader program:\n%s") % infoLog);
         }
 
         glDeleteShader(vertexShader);

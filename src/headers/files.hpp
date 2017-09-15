@@ -24,7 +24,7 @@ std::string loadFile(const std::string &filename) {
 
         content = ss.str();
     } catch (std::ifstream::failure &e) {
-        std::cerr << "Error loading file '" << filename << "'" << std::endl;
+        Log::e("loadFile", boost::format("Error loading file: %s") % filename);
     }
 
     return content;
@@ -43,7 +43,7 @@ void loadFile(const std::string &filename, std::string *output) {
 
         output->assign(ss.str());
     } catch (std::ifstream::failure &e) {
-        std::cerr << "Error loading file '" << filename << "'" << std::endl;
+        Log::e("loadFile", boost::format("Error loading file: %s") % filename);
     }
 }
 

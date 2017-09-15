@@ -41,13 +41,13 @@ void Font::initGlyphMap(const std::string &fontName, FT_UInt pixelWidth, FT_UInt
 
     FT_Library ftLibrary;
     if (FT_Init_FreeType(&ftLibrary)) {
-        printf("Font::Font: Failed to init FreeType");
+        Log::e("Font::Font", "Failed to init FreeType");
         throw fontName;
     }
 
     FT_Face face;
     if (FT_New_Face(ftLibrary, fontName.c_str(), 0, &face)) {
-        printf("Font::Font: Failed to load font: %s", fontName.c_str());
+        Log::e("Font::Font", boost::format("Failed to load font: %s") % fontName);
         throw fontName;
     }
 
@@ -57,7 +57,7 @@ void Font::initGlyphMap(const std::string &fontName, FT_UInt pixelWidth, FT_UInt
 
     for (GLubyte c = 0; c < 128; c++) {
         if (FT_Load_Char(face, c, FT_LOAD_RENDER)) {
-            printf("Font::Font: Failed to load glyph: %c", c);
+            Log::e("Font::Font", boost::format("Failed to load glyph: %c") % c);
             throw fontName;
         }
 

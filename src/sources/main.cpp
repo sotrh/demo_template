@@ -1,6 +1,4 @@
 #include <main.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
 
 #define WIDTH 800
 #define HEIGHT 600
@@ -19,6 +17,7 @@ int main() {
 
     window = glfwCreateWindow(WIDTH, HEIGHT, "Demo Template", nullptr, nullptr);
     if (window == nullptr) {
+        Log::e("main", "Failed to create GLFW window");
         glfwTerminate();
         return -1;
     }
@@ -29,7 +28,7 @@ int main() {
     glfwSetKeyCallback(window, keyCallback);
 
     if (gladLoadGL() == 0) {
-        std::cout << "GLAD failed to load" << std::endl;
+        Log::e("main", "GLAD failed to load");
         glfwDestroyWindow(window);
         glfwTerminate();
         return -1;
@@ -154,8 +153,6 @@ int main() {
 
         font.renderText(textShader, frameRate, 25.0f, HEIGHT - 25.0f, 0.5f, glm::vec3(1, 1, 1));
         font.renderText(textShader, inverseFrameRate, 25.0f, HEIGHT - 50.0f, 0.5f, glm::vec3(1, 1, 1));
-        font.renderText(textShader, "This is sample text", 25.0f, 25.0f, 1.0f, glm::vec3(0.5, 0.8f, 0.2f));
-        font.renderText(textShader, "(C) LearnOpenGL.com", 540.0f, 570.0f, 0.5f, glm::vec3(0.3, 0.7f, 0.9f));
 
         glfwSwapBuffers(window);
         glfwPollEvents();
@@ -172,7 +169,7 @@ int main() {
 }
 
 void errorCallback(int error, const char *description) {
-    std::cout << error << ": " << description << std::endl;
+    Log::e("errorCallback", boost::format("Error Code (%d): Message: %s") % error % description);
 }
 
 void keyCallback(GLFWwindow *window, int key, int scanCode, int action, int mods) {
