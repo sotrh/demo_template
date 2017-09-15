@@ -18,6 +18,10 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/lib/glm)
 # --- openGL ---
 find_package(OpenGL REQUIRED)
 
+# --- freetype ---
+find_package(Freetype REQUIRED)
+include_directories(${FREETYPE_INCLUDE_DIRS})
+
 # --- main build commands ---
 include_directories(
         ${PROJECT_SOURCE_DIR}/src/headers
@@ -39,5 +43,5 @@ add_executable(demo_template
         ${ASSETS}
         ${GLAD_SOURCES})
 
-target_link_libraries(demo_template glfw ${GLFW_LIBRARIES})
+target_link_libraries(demo_template glfw ${GLFW_LIBRARIES} ${FREETYPE_LIBRARIES})
 
